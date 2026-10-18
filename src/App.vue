@@ -6,7 +6,7 @@
     <RouterLink to="/"> Acceuil </RouterLink>
     <RouterLink to="/todos"> Liste </RouterLink>
     <RouterLink to="/todos/:id"> Liste - Détail </RouterLink>
-    <RouterLink to="/about">A propos</RouterLink>
+    <RouterLink to="/a_propos">A propos</RouterLink>
   </nav>
   <RouterView />
 </template>

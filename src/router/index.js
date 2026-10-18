@@ -12,7 +12,7 @@ const router = createRouter({
     children: [
       {path: '/todos/:id', name: 'détail', component: Détail}
     ]},
-    {path: '/about', name: 'à propos', component: APropos}
+    {path: '/a_propos', name: 'à propos', component: APropos}
   ],
 })
 
