@@ -9,12 +9,14 @@ const props = defineProps({
 
 <template>
   <li>
-    <label>{{ tache }}</label>
+    <label :class="{'fini': terminer}">{{ tache }}</label>
     <button @click="emit('basculer', id)">Terminer</button>
     <button @click="emit('suppression', id)">Supprimer</button>
   </li>
 </template>
 
 <style scoped>
-
+.fini{
+  text-decoration: line-through;
+}
 </style>
